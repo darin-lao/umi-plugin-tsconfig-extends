@@ -1,7 +1,7 @@
 {
   "name": "@dl-umi-plugin/tsconfig-extends",
-  "author": "darin.lao <273556837@qq.com>",
-  "version": "1.0.0",
+  "author": "lao.jianfeng <273556837@qq.com>",
+  "version": "1.0.1",
   "main": "dist/cjs/index.js",
   "types": "dist/cjs/index.d.ts",
   "description": "Umi4 plugin for tsconfig extends",
@@ -21,7 +21,7 @@
     "extends"
   ],
   "authors": {
-    "name": "darin.lao <273556837@qq.com>",
+    "name": "lao.jianfeng <273556837@qq.com>",
     "email": "273556837@qq.com"
   },
   "license": "MIT",
@@ -34,10 +34,13 @@
     "@types/node": "^18.0.0",
     "father": "^4.0.0",
     "typescript": "^5.0.0",
-    "umi": "^4.0.64"
-  },
-  "dependencies": {
+    "umi": "^4.0.64",
     "@umijs/utils": "^4.0.64",
     "lodash": "^4.17.21"
+  },
+  "dependencies": {},
+  "peerDependencies": {
+    "@umijs/utils": ">=4.0.0",
+    "lodash": ">=4.0.0"
   }
 }
