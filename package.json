@@ -1,0 +1,43 @@
+{
+  "name": "@dl-umi-plugin/tsconfig-extends",
+  "author": "darin.lao <273556837@qq.com>",
+  "version": "1.0.0",
+  "main": "dist/cjs/index.js",
+  "types": "dist/cjs/index.d.ts",
+  "description": "Umi4 plugin for tsconfig extends",
+  "url": "https://github.com/darin-lao/umi-plugin-tsconfig-extends#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/darin-lao/umi-plugin-tsconfig-extends"
+  },
+  "scripts": {
+    "dev": "father dev",
+    "build": "father build"
+  },
+  "keywords": [
+    "umi",
+    "plugin",
+    "tsconfig",
+    "extends"
+  ],
+  "authors": {
+    "name": "darin.lao <273556837@qq.com>",
+    "email": "273556837@qq.com"
+  },
+  "license": "MIT",
+  "files": [
+    "dist",
+    "src"
+  ],
+  "devDependencies": {
+    "@types/lodash": "^4.14.192",
+    "@types/node": "^18.0.0",
+    "father": "^4.0.0",
+    "typescript": "^5.0.0",
+    "umi": "^4.0.64"
+  },
+  "dependencies": {
+    "@umijs/utils": "^4.0.64",
+    "lodash": "^4.17.21"
+  }
+}
